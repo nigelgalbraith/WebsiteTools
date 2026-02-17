@@ -1,0 +1,17 @@
+{
+  "nodes": {
+    "LoadWorkbook": {
+      "label": "Load Excel file"
+    },
+    "LoopSheets": {
+      "label": "Loop through configured sheets"
+    },
+    "ExportJSON": {
+      "label": "Export each sheet to JSON"
+    }
+  },
+  "connections": [
+    ["LoadWorkbook", "LoopSheets"],
+    ["LoopSheets", "ExportJSON"]
+  ]
+}
