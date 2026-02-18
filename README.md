@@ -265,3 +265,10 @@ python3 PythonFiles/<script_name>.py
 ```
 
 All configuration is located in the `diagrams/` directory.
+
+
+## License
+
+MIT License.
+
+Anyone is free to use, modify, distribute, or improve this code.
